@@ -26,6 +26,7 @@ jobs:
 
     - name: Run IntelliJ buildPlugin task
       run: |
+        chmod +x gradlew
         ./gradlew buildPlugin
 
     - name: Upload artifacts
